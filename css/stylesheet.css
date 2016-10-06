@@ -1,0 +1,43 @@
+body{
+  background: #FBFBFF;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FBFBFF', endColorstr='#E2D4BA', GradientType=0);
+  background: -webkit-linear-gradient(to bottom, #FBFBFF 50%, #E2D4BA) !important;
+  background: -moz-linear-gradient(to bottom, #FBFBFF 50%, #E2D4BA) !important;
+  background: -ms-linear-gradient(to bottom, #FBFBFF 50%, #E2D4BA) !important;
+  background: -o-linear-gradient(to bottom, #FBFBFF 50%, #E2D4BA) !important;
+  background: linear-gradient(to bottom, #FBFBFF 50%, #E2D4BA) !important;
+  color: white;
+}
+
+div.well{
+  height: 250px;
+} 
+
+.Absolute-Center {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.Absolute-Center.is-Responsive {
+  width: 50%; 
+  height: 50%;
+  min-width: 200px;
+  max-width: 500px;
+  padding: 40px;
+}
+
+h1{
+	color: #653239;
+	text-align: center;
+	font-weight: bold;
+}
+
+p{
+	color: #AF7A6D;
+	font-weight: bold;
+}
+
+.btn-def{
+	background-color: #653239;
+}
